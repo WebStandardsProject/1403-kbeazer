@@ -56,11 +56,11 @@ table {
 .pOrange{
 	background: #3d4a4c;
 	color: #3d4a4c;
-	padding: 30px;
+	padding: 20px;
 }
 nav{
 	background: #363825;
-	margin-bottom: 226px;
+	/*margin-bottom: 226px;*/
 }
 #container{
 	width: 60%;
@@ -69,21 +69,34 @@ nav{
 	border-radius: 5px;
 	box-shadow: 5px 5px 15px black;
 	background: #ededed;
-	position: absolute;
+	/*position: absolute;
 	top: 40px;
-	left: 280px;
+	left: 280px;*/
 }
 h1{
 	background: #292d28;
 	padding: 20px;
-	font-size: 24px;
+	font-size: 40px;
 	font-family: calibri;
 	color: #ededed;
 	border-radius: 5px 5px 0 0;
 }
 h2{
 	padding: 10px;
-	font-size: 18px;
+	font-size: 28px;
+	font-family: calibri;
+	color: #292d28;
+}
+h3{
+	padding: 10px;
+	font-size: 22px;
+	font-family: calibri;
+	color: #efefef;
+	background: #445759;
+}
+p{
+	padding: 10px;
+	font-size: 16px;
 	font-family: calibri;
 	color: #292d28;
 }
@@ -92,6 +105,21 @@ a{
 	text-decoration: none;
 	font-size: 16px;
 	font-family: calibri;
+}
+.tests, .results{
+	width: 50%;
+	padding: 20px 0;
+	margin-bottom: 14px; 
+	background: #efefef;
+	display: inline-block;
+	float: left;
+}
+ul li{
+	padding: 8px 0;
+}
+ul li a{
+	color: #577377;
+
 }
 footer{
 	text-align: center;
