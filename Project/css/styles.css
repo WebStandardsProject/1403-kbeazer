@@ -60,7 +60,6 @@ table {
 }
 nav{
 	background: #363825;
-	/*margin-bottom: 226px;*/
 }
 #container{
 	width: 60%;
@@ -69,9 +68,11 @@ nav{
 	border-radius: 5px;
 	box-shadow: 5px 5px 15px black;
 	background: #ededed;
-	/*position: absolute;
-	top: 40px;
-	left: 280px;*/
+}
+#name{
+	font-size: 24px;
+	font-weight: lighter;
+	padding-bottom: 0;
 }
 h1{
 	background: #292d28;
@@ -93,10 +94,16 @@ h3{
 	font-family: calibri;
 	color: #efefef;
 	background: #445759;
+	text-align: center;
+}
+h4{
+	padding: 10px;
+	font-size: 18px;
+	font-family: calibri;
 }
 p{
 	padding: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: calibri;
 	color: #292d28;
 }
@@ -105,6 +112,7 @@ a{
 	text-decoration: none;
 	font-size: 16px;
 	font-family: calibri;
+	color: #577377;
 }
 .tests, .results{
 	width: 50%;
@@ -114,6 +122,23 @@ a{
 	display: inline-block;
 	float: left;
 }
+table{
+	margin: 0 auto;
+}
+th, td{
+	border: 1px solid black;
+	padding: 20px;
+	font-family: calibri;
+}
+th{
+	font-family: calibri;
+	font-size: 18px;
+	font-weight: bold;
+	color: #292d28; 
+}
+td{
+	width: 318.333px;
+}
 ul li{
 	padding: 8px 0;
 }
@@ -121,11 +146,17 @@ ul li a{
 	color: #577377;
 
 }
+.top-nav h1{
+	display: inline-block;
+}
 footer{
 	text-align: center;
 	background: #363825;
-	padding: 300px 0 20px 0;
-	font-family: calibri;
-	color: #ededed;
+	padding: 20px;
 	clear: both;
+	margin: 0 auto;
+}
+footer p{
+	font-family: calibri;
+	color: #efefef;
 }
