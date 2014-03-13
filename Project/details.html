@@ -4,12 +4,94 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Template</title>
+    <title>Product Details</title>
+    <link href="css/foundation.min.css" rel="stylesheet" />
+    <link href="css/foundation.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
   </head>
 
   <body> 
+    <div id="header">
+      <a id="logo" href="home.html"><img src="images/fs-logo-thumb.png"></a>
+      <h1 id="brand">Fresh Soul Incense</h1>
+      <div id="search-form">
+        <form method="get" action="results.html">
+          <input id="search-input" type="text" size="21" maxlength="120" value="I'm looking for...">
+          <a href="results.html"><input id="search-btn" type="submit" value=">"></a>
+        </form>
+        <div class="clear"></div>
+      </div> 
+      <div id="cta-top">
+          <a href="signup.html">Register</a><p>|</p>  
+          <a href="login.html">Sign In</a>
+      </div>
+    </div>
+
+    <div class="row">
+     <a href="results.html"><h2>+ Continue Shopping</h2></a>
+     <img src="images/rainbow.jpg">
+     <div class="small-12 columns">
+      <h2>African Sunrise</h2>
+      <h3>$19.99</h3>
+      <p>A natural wood aromatic incense used for centuries by the Incas and indigenous people of the Andes as a spiritual remedy for purifying and cleansing, as well as to get rid of evil spirits and misfortune.</p>
+      <p>SKU: 678956</p><br>
+      <p>Availability:</p> <h2>In Stock</h2>
+      <p>Quantity:</p>
+      <input type="text" maxlength="2" placeholder="1">
+      <input type="submit" value="Update">
+     </div>
+    </div>
+    <div class="row">
+      <div class="small-2 columns">
+        <h3>Items</h3>
+        <p>Aftrican Sunrise</p>
+      </div>
+      <div class="small-4 columns">
+        <h3>Description</h3>
+        <p>1 box, 120 Sticks</p>
+      </div>
+      <div class="small-2 columns">
+        <h3>TAX</h3>
+        <p>3.99</p>
+      </div>
+      <div class="small-2 columns">
+        <h3>QTY</h3>
+        <p>1</p>
+      </div>
+      <div class="small-2 columns">
+        <h3>Cost</h3>
+        <p>19.99</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-10 columns">
+        <p>Sub-total TAX @20%:</p><br>
+        <p>Total:</p>
+      </div>
+      <div class="small-2 columns">
+        <p>7.98</p>
+        <p>27.97</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <a href="payment.html"><input type="submit" value="Proceed to Checkout"></a>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <p>Fresh Soul Incense 2014.  All rights reserved.</p>
+      </div> 
+    </footer>
+
   	<script type="text/javascript" src="Project/js/jquery-1.11.0.min.js"></script>
-  	<script type="text/javascript" src="Project/js/init.js"></script>    
+    <script type="text/javascript" src="Project/js/init.js"></script> 
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>  
+    <script type="text/javascript" src="js/foundation.min.js"></script> 
+    <script type="text/javascript" src="js/modernizr.js"></script>    
   </body>
 </html>
