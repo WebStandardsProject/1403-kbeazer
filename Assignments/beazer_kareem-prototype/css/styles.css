@@ -146,7 +146,7 @@ ul li a{
 #header{
 	background: #bfc398;
 }
-#ctaLinks{
+#cta-top{
 	display: inline-block;
 	float: right;
 	margin: 40px 10px;
@@ -156,8 +156,7 @@ ul li a{
 }
 #brand{
 	color: #47525a;
-	font-size: 24px;
-	/*margin-right: 130px;*/
+	margin-right: 130px;
 }
 #search-form{
 	display: inline-block;
@@ -168,7 +167,7 @@ ul li a{
 #search-input{
 	margin: 0;
 	padding: 5px 15px;
-	width: 200px;
+	width: 300px;
 	font-family: calibri, Arial, Helvetica, sans-serif;
 	font-size:14px;
 	border:1px solid #0076a3; border-right:0px;
