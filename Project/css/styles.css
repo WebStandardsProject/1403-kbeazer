@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background: url(../images/incense-back.jpg) fixed no-repeat;
+	background: url(../images/tweeds.jpg) fixed;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
@@ -71,8 +71,8 @@ h1{
 h2{
 	padding: 10px;
 	font-size: 28px;
-	font-family: calibri;
-	color: #292d28;
+	font-family: source sans pro;
+	color: #1f282f;
 }
 h3{
 	padding: 10px;
@@ -90,7 +90,7 @@ h4{
 p{
 	/*padding: 10px;*/
 	font-size: 18px;
-	font-family: calibri;
+	font-family: source sans pro;
 	/*color: #292d28;*/
 	display: inline-block;
 }
@@ -138,22 +138,25 @@ ul li a{
 #ctaLinks{
 	display: inline-block;
 	float: right;
-	margin: 30px 10px;
+	margin: 30px 0;
 }
 #logo{
 	margin: 10px;
 }
 #brand{
-	color: #47525a;
+	color: #a09b3f;
 	font-size: 30px;
-	padding: 10px;
-	/*margin-right: 130px;*/
+	padding: 10px 0;
+	font-variant: small-caps; 
+	margin-right: 100px;
 }
 #searchForm{
 	display: inline-block;
-	/*margin-right: 330px;*/
 }
-
+.numbDisplay{
+	color: #a3ab94;
+	margin-top: 10px;
+}
 /*Search Bar Styling --start--*/
 #searchInput{
 	margin: 0;
@@ -193,8 +196,9 @@ ul li a{
 }
 .feature > h2{
 	font-size: 36px;
-	color: #a77254;
+	color: #a3ab94;
 	padding-top: 100px;
+	margin-bottom: 40px;
 }
 .blueBtn{
 	font-family: calibri;
@@ -210,18 +214,21 @@ ul li a{
 }
 .browse{
 	background: rgba(0,0,0,.5);
+	height: 100px;
+	margin-top: 55px;
 }
 .browse a{
+	font-size: 20px;
 	text-align: center;
 }
-.center h3{
+.center{
 	border-left: 1px solid #efefef;
 	border-right: 1px solid #efefef;
 }
 .results{
 	margin: 20px auto;
-	background: #fff;
-	padding: 10px;
+	background: url(../images/soft-green.jpg);
+	padding: 20px;
 	text-align: center;
 }
 footer{
@@ -232,6 +239,6 @@ footer{
 	margin: 0 auto;
 }
 footer p{
-	font-family: calibri;
-	color: #47525a;
+	font-family: source sans pro;
+	color: #a09b3f;
 }
