@@ -138,7 +138,10 @@ ul li a{
 #ctaLinks{
 	display: inline-block;
 	float: right;
-	margin: 30px 0;
+	margin: 50px 10px;
+}
+#ctaLinks > p{
+	color: #02a4e2;
 }
 #logo{
 	margin: 10px;
@@ -237,6 +240,10 @@ label{
 	background: url(../images/soft-green.jpg);
 	padding: 20px;
 	text-align: center;
+}
+.results > p{
+	text-align: left;
+	padding-bottom: 20px;
 }
 footer{
 	text-align: center;
