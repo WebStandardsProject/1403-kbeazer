@@ -156,6 +156,13 @@ ul li a{
 .numbDisplay{
 	color: #a3ab94;
 	margin-top: 10px;
+	padding-left: 20px;
+}
+label{
+	color: #a3ab94;
+	font-family: source sans pro;
+	font-size: 20px;
+	padding: 5px;
 }
 /*Search Bar Styling --start--*/
 #searchInput{

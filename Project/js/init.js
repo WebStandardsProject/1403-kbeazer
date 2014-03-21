@@ -3,6 +3,6 @@ $(document).ready(function(){
 	$('a').hover(function(){
 		$(this).css('color', '#363825');
 	},function(){
-		$(this).css('color', '#577377');	 
+		$(this).css('color', '#02a4e2');	 
 		})
 	});
