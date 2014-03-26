@@ -145,17 +145,18 @@ ul li a{
 }
 #logo{
 	margin-top: 10px;
+	display: inline-block;
 }
 #brand{
 	color: #a3ab94;
 	font-size: 30px;
 	margin-top: 20px;
 	font-variant: small-caps; 
-	/*margin-right: 100px;*/
 }
 #searchForm{
 	display: inline-block;
-	width: 100%;
+	width: 75%;
+	margin-top: 40px;
 }
 .numbDisplay{
 	color: #f3732a;
@@ -172,7 +173,7 @@ label{
 #searchInput{
 	margin: 0;
 	padding: 5px 15px;
-	width: 85%;
+	width: 60%;
 	font-family: calibri, Arial, Helvetica, sans-serif;
 	font-size:14px;
 	border:1px solid #0076a3; border-right:0px;
