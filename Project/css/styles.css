@@ -144,7 +144,7 @@ ul li a{
 	color: #02a4e2;
 }
 #logo{
-	margin-top: 10px;
+	margin: 20px 10px;
 	display: inline-block;
 }
 #brand{
@@ -157,6 +157,7 @@ ul li a{
 	display: inline-block;
 	width: 75%;
 	margin-top: 40px;
+/*	padding-left: 50px;*/
 }
 .numbDisplay{
 	color: #f3732a;
