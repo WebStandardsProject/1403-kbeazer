@@ -138,7 +138,7 @@ ul li a{
 #ctaLinks{
 	display: inline-block;
 	float: right;
-	margin: 10px;
+	margin: 20px;
 }
 #ctaLinks > p{
 	color: #02a4e2;
@@ -155,8 +155,8 @@ ul li a{
 }
 #searchForm{
 	display: inline-block;
-	width: 75%;
-	margin-top: 40px;
+	width: 100%;
+	/*margin-top: 40px;*/
 /*	padding-left: 50px;*/
 }
 .numbDisplay{
@@ -174,7 +174,7 @@ label{
 #searchInput{
 	margin: 0;
 	padding: 5px 15px;
-	width: 60%;
+	width: 89.3%;
 	font-family: calibri, Arial, Helvetica, sans-serif;
 	font-size:14px;
 	border:1px solid #0076a3; border-right:0px;
@@ -248,8 +248,11 @@ label{
 	background: url(../images/soft-green.jpg);
 	padding: 20px;
 	text-align: center;
+	max-height: 400px;
+	overflow: hidden;
 }
-.results > p{
+.results  p{
+
 	text-align: left;
 	padding-bottom: 20px;
 }
@@ -263,4 +266,7 @@ footer{
 footer p{
 	font-family: source sans pro;
 	color: #a3ab94;
+}
+.stickyFooter{
+	min-height: 500px;
 }
