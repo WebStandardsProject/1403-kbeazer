@@ -155,9 +155,7 @@ ul li a{
 }
 #searchForm{
 	display: inline-block;
-	width: 100%;
-	/*margin-top: 40px;*/
-/*	padding-left: 50px;*/
+	width: 50%;
 }
 .numbDisplay{
 	color: #f3732a;
@@ -222,12 +220,9 @@ label{
 	padding: 10px 20px;
 	margin: 10px auto;
 	border: solid 1px #c96532; border-right:0px;
-	/*border: solid 1px #0076a3; border-right:0px;*/
 	background: #0095cd;
 	background: -webkit-gradient(linear, left top, left bottom, from(#e2c033), to(#f3732a));
 	background: -moz-linear-gradient(top,  #e2c033,  #f3732a);
-	/*background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
-	background: -moz-linear-gradient(top,  #00adee,  #0078a5);*/
 	display: block;
 }
 .browse{
@@ -248,13 +243,48 @@ label{
 	background: url(../images/soft-green.jpg);
 	padding: 20px;
 	text-align: center;
-	max-height: 400px;
+	min-height: 500px;
 	overflow: hidden;
 }
 .results  p{
-
 	text-align: left;
 	padding-bottom: 20px;
+}
+.details{
+	text-align: left;
+	background: url(../images/soft-green.jpg);
+	min-height: 500px;
+}
+.details p{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.lineUp{
+	display: inline-block;
+	vertical-align: top;
+}
+p[class="lineUp"]{
+	width: 100%;
+
+}
+#shortBox{
+	width: 40px;
+	margin: 0;
+	display: inline-block;
+	padding: 10px;
+}
+.tableHead h3{
+	color: #a3ab94;
+}
+.tableHead{
+	background: #1f262c;
+}
+.tableHead p{
+	background: #a3ab94;
+}
+.tableDetails {
+	background: #a3ab94;
+	border-bottom: 1px solid black;
 }
 footer{
 	text-align: center;
